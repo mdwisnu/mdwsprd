@@ -10,6 +10,7 @@ const navLinks = [
   { name: "SERVICES", href: "#expertise" },
   { name: "PHOTOS", href: "#photography" },
   { name: "FILMS", href: "#film" },
+  { name: "DESIGN", href: "#design" },
   { name: "CONTACT", href: "#contact" },
 ];
 

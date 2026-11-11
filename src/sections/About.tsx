@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
+import { Button } from "@/components/ui/Button";
 
 export function About() {
   return (
@@ -63,6 +65,23 @@ export function About() {
                 <span className="text-4xl md:text-5xl font-bold tracking-tighter">3+</span>
                 <span className="font-mono text-xs tracking-widest text-neutral-500 mt-2 uppercase">Visual Disciplines</span>
               </div>
+            </motion.div>
+
+            {/* Download CV Button */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ delay: 0.3 }}
+              className="pt-2 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6"
+            >
+              <Button href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                DOWNLOAD CV
+                <ArrowUpRight className="w-4 h-4 ml-1 inline" />
+              </Button>
+              <span className="font-mono text-xs tracking-widest text-neutral-500 uppercase">
+                Take a closer look at my background & journey
+              </span>
             </motion.div>
           </div>
 

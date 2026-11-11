@@ -37,7 +37,7 @@ export function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ delay: index * 0.12, duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="group relative flex flex-col justify-between bg-[#080808] hover:bg-[#0d0d0d] border border-white/10 hover:border-white/25 p-7 sm:p-9 transition-all duration-500"
+            className="group relative flex flex-col justify-between bg-[#080808] hover:bg-[#0d0d0d] border border-white/10 hover:border-white/25 rounded-2xl overflow-hidden p-7 sm:p-9 transition-all duration-500"
           >
             {/* Animated Top Border Line (matches Experience & Navbar aesthetic) */}
             <div className="absolute top-0 left-0 h-[1px] w-0 bg-white transition-all duration-700 group-hover:w-full" />

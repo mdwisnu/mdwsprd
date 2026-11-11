@@ -155,15 +155,26 @@ export function Film() {
               className="relative w-full max-w-5xl aspect-video flex items-center justify-center bg-black border border-white/10 shadow-2xl overflow-hidden"
             >
               {activeFilmData.videoUrl ? (
-                <video
-                  key={activeFilmData.videoUrl}
-                  src={activeFilmData.videoUrl}
-                  controls
-                  autoPlay
-                  playsInline
-                  preload="auto"
-                  className="w-full h-full object-contain outline-none"
-                />
+                activeFilmData.videoUrl.includes("drive.google.com") ? (
+                  <iframe
+                    key={activeFilmData.videoUrl}
+                    src={activeFilmData.videoUrl}
+                    title={activeFilmData.title}
+                    allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full border-0 outline-none"
+                  />
+                ) : (
+                  <video
+                    key={activeFilmData.videoUrl}
+                    src={activeFilmData.videoUrl}
+                    controls
+                    autoPlay
+                    playsInline
+                    preload="auto"
+                    className="w-full h-full object-contain outline-none"
+                  />
+                )
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-neutral-900">
                   <p className="font-mono text-neutral-500 tracking-widest text-sm text-center px-4">

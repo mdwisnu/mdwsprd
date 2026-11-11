@@ -10,6 +10,7 @@ import { Skills } from "@/sections/Skills";
 import { SelectedWork } from "@/sections/SelectedWork";
 import { Photography } from "@/sections/Photography";
 import { Film } from "@/sections/Film";
+import { GraphicDesign } from "@/sections/GraphicDesign";
 import { Experience } from "@/sections/Experience";
 import { AchievementsExploring } from "@/sections/AchievementsExploring";
 import { ResumeContact } from "@/sections/ResumeContact";
@@ -35,6 +36,7 @@ export default function Home() {
         <SelectedWork />
         <Photography />
         <Film />
+        <GraphicDesign />
         <Experience />
         <AchievementsExploring />
         <ResumeContact />
