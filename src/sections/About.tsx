@@ -75,7 +75,7 @@ export function About() {
               transition={{ delay: 0.3 }}
               className="pt-2 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6"
             >
-              <Button href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button href="/cv.pdf?v=2" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 DOWNLOAD CV
                 <ArrowUpRight className="w-4 h-4 ml-1 inline" />
               </Button>
