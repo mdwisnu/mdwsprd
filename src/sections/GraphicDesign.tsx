@@ -10,7 +10,7 @@ export function GraphicDesign() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
-  // For "all", display the 3 featured Poster & Flyer items (Flyer 3, Flyer 4, QR)
+  // For "all", display the 3 featured Poster & Flyer items (Flyer 3, Flyer 4, Desain 6)
   const filteredDesigns: DesignItem[] =
     activeCategory === "all"
       ? designs.filter((item) => item.featured)
@@ -79,7 +79,7 @@ export function GraphicDesign() {
       </div>
 
       {/* Gallery Layout:
-          - "all" shows 3 featured designs (Flyer 3, Flyer 4, QR) in a 3-column grid
+          - "all" shows 3 featured designs (Flyer 3, Flyer 4, Desain 6) in a 3-column grid
           - "desain-sosmed" uses a 3-column horizontal grid so connected feeds line up side-by-side
           - "poster-flyer" uses natural Masonry columns */}
       {activeCategory === "all" ? (

@@ -147,16 +147,23 @@ export const designs: DesignItem[] = [
   {
     id: "poster-6",
     category: "poster-flyer",
+    image: driveImageUrl("17meAyPhLV1HYAUO9aQiye2o_X25s2Qv0"), // DESAIN KE 6.png
+    width: 1080,
+    height: 1380,
+    featured: true,
+  },
+  {
+    id: "poster-7",
+    category: "poster-flyer",
     image: driveImageUrl("186y1hdWYS4VjJh_CF_hZkb9hzNShyLfV"), // Frame Wedding Putih.png
     width: 1200,
     height: 1800,
   },
   {
-    id: "poster-7",
+    id: "poster-8",
     category: "poster-flyer",
     image: driveImageUrl("1RQwfJWtoCmOinPAw4hVjtHVQfi-Vuvi9"), // Qr Photobooth.png
     width: 437,
     height: 613,
-    featured: true,
   },
 ];
