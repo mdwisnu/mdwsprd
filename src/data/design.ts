@@ -155,15 +155,50 @@ export const designs: DesignItem[] = [
   {
     id: "poster-7",
     category: "poster-flyer",
-    image: driveImageUrl("186y1hdWYS4VjJh_CF_hZkb9hzNShyLfV"), // Frame Wedding Putih.png
-    width: 1200,
-    height: 1800,
+    image: driveImageUrl("15CG5FPa3kAzSIZbfdA7XWo00NrOEJbkz"), // desain ke 7.png
+    width: 1080,
+    height: 1380,
   },
   {
     id: "poster-8",
     category: "poster-flyer",
-    image: driveImageUrl("1RQwfJWtoCmOinPAw4hVjtHVQfi-Vuvi9"), // Qr Photobooth.png
-    width: 437,
-    height: 613,
+    image: driveImageUrl("1wtNhHvXwa59eThtyrtiM58heI8ruWeJc"), // desain ke 8.png
+    width: 2000,
+    height: 2829,
+  },
+  {
+    id: "poster-9",
+    category: "poster-flyer",
+    image: driveImageUrl("1FqnO63RSyka3vjtNw4BR8bJElKFaKa8B"), // @dapur.mennara.png
+    width: 1080,
+    height: 1350,
+  },
+  {
+    id: "poster-10",
+    category: "poster-flyer",
+    image: driveImageUrl("1Ib_ymG1XSYSPuzfhLW17m8_KricJGJ_0"), // mennara umkm.png
+    width: 1080,
+    height: 1920,
+  },
+  {
+    id: "poster-11",
+    category: "poster-flyer",
+    image: driveImageUrl("144kT8I1cWQUw_Ho70OgZADomsVTkFNUB"), // two side of bali.jpeg
+    width: 1131,
+    height: 1599,
+  },
+  {
+    id: "poster-12",
+    category: "poster-flyer",
+    image: driveImageUrl("1eL1vVotvKeau3-M90mHdFre6LeCRHkBs"), // Widnyana & ZeilaniCOVER DekMbar.png
+    width: 1414,
+    height: 2000,
+  },
+  {
+    id: "poster-13",
+    category: "poster-flyer",
+    image: driveImageUrl("186y1hdWYS4VjJh_CF_hZkb9hzNShyLfV"), // Frame Wedding Putih.png
+    width: 1200,
+    height: 1800,
   },
 ];
